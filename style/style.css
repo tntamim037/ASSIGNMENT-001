@@ -15,6 +15,9 @@
 .back-photo{
      background-image: url(../Assets/Hero-bg.png);
 }
+body{
+    background-color: rgba(78, 71, 255, 0.1);
+}
 /* nav-style */
 nav{
     display: flex;
@@ -41,6 +44,10 @@ nav{
    border: none;
     border-radius: 10px;
 }
+.btn-primary:hover{
+    background-color: rgba(215, 215, 12, 1);
+    font-size: 25px;
+}
 /* banner */
 .banner{
    margin:0px 267px 152px 263px;
@@ -59,6 +66,7 @@ nav{
 /* main */
 main{
     max-width: 1140px;
+    width: 100%;
     margin: 0px auto;
 }
 /* action */
@@ -109,4 +117,30 @@ main{
     font-size:20px ;
  padding-top: 0px;
     color: rgba(0, 0, 0, 0.5);
+}
+/* Touch Section */
+.touch{
+    display: flex;
+    padding: 200px;
+    gap: 200px;
+    margin-top: 92px;
+  
+}
+#touch-text{
+    font-size: 97px;
+    font-weight:bold ;
+}
+input,textarea{
+    height:50px; 
+    width:497px ;
+    border:none;
+    border-radius: 20px;
+    padding: 32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 19px;
+}
+label{
+   font-size: 18px; 
 }
