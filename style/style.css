@@ -26,7 +26,7 @@ body{
 
 .title{
     display: flex;
-    gap: auto;
+    gap: 158px;
     align-items: center;
     justify-content: space-between;
     margin:0px 150px 50px 150px;
@@ -148,54 +148,54 @@ main{
 
 /* bonus-mark */
 
-   .feedback-section{
+.feedback-section{
         text-align: center;
         padding: 50px 20px;
        }
-       .section-title{
+.section-title{
        font-size:42px;
         margin-bottom: 30px;
         color:rgba(37, 36, 50, 1);
        }
-    .feedback-container{
+.feedback-container{
         display: flex;
         justify-content: center;
         gap: 20px;
       
     }
-    .card{
+.card{
         background-color:#FFFFFF ;
         border-radius: 14px;
         padding: 24px;
         width: 300px;
         text-align: left;
     }
-    .sub-title{
+.sub-title{
        
         font-size: medium;
         color: rgba(30, 30, 30, 1);
         margin: 10px 0px;
     }
-    .feedback-text{
+.feedback-text{
         color: rgba(30, 30, 30, 1);
         margin-bottom: 15px;
     }
-    .reviewer{
+.reviewer{
         display: flex;
         align-items: center;
         gap: 10px;
     }
-    .r-photo{
+.r-photo{
         border-radius: 50%;
     }
- .r-info{
+.r-info{
     gap: 0px;
  }
 
 /* Touch Section */
 .touch-section{
  margin-top: 92px;
-    margin-right: 150;
+    margin-right: 150px;
 }
 .touch{
     display: flex;
