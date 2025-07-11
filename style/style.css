@@ -12,29 +12,38 @@
   font-style: normal;
 }
 
-.back-photo{
-     background-image: url(../Assets/Hero-bg.png);
-}
 body{
     background-color: rgba(78, 71, 255, 0.1);
 }
+
 /* nav-style */
-nav{
+
+.back-photo{
+     background-image: url(../Assets/Hero-bg.png);
+     width: 1440px;
+    height: 691px;
+}
+
+.title{
     display: flex;
+    gap: auto;
     align-items: center;
     justify-content: space-between;
-    margin:0px 150px 547px 150px;
-   
+    margin:0px 150px 50px 150px;
+    max-width: 1140px;
+    height: 151px;
+    padding-top:50px;
+    padding-bottom:10px;
 }
 
 .nav-title{
     font-size: 34px;
     color:rgba(133, 71, 255, 1);
-    font-weight: bold;
+    font-weight: bold;  
 }
 
-
 /* extra-style */
+
 .btn-primary{
     background-color: #4E47FF;
     color: rgba(255, 255, 255, 1);
@@ -44,30 +53,31 @@ nav{
    border: none;
     border-radius: 10px;
 }
+
 .btn-primary:hover{
     background-color: rgba(215, 215, 12, 1);
     font-size: 25px;
 }
+
 /* banner */
 .banner{
-   margin:0px 267px 152px 263px;
-    /* margin:50px 365px 0px 365px ; */
-
+    margin: 10px 267px 152px 267px;
 }
 .banner-button{
-    margin: 189px 365px 0px 365px;
+  margin:0px 365px;
      align-items: center;
 }
 .banner-text{
     font-size: 65px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
+    text-align: center;
 }
 /* main */
 main{
     max-width: 1140px;
     width: 100%;
-    margin: 0px auto;
+    margin:116px 150px;
 }
 /* action */
 .action{
@@ -75,30 +85,40 @@ main{
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    margin-top: 90px;
+    margin-top: 116px;
+    margin-bottom: 116px;
 }
 .action-text h3{
     font-size: 42px;
     font-weight: bold;
     color:#252432;
 }
+#banner-photo{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
 .action-text p{
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
-    padding: ;
 }
 /* Users Section */
-#user-about{
+.users-section{
     background-color: rgba(78, 71, 255, 0.1);
     border:none;
     border-radius: 24px;
-    margin-top:110px ;
+
+   
+}
+#user-about{
+    padding: 50px 142px;
+  
 }
 .user-items{
     display: flex;
     justify-content: space-around;
     gap: 158px;
-    padding: 40px 142px 50px 142px;
+    margin-top:0px;
   
 }
 #section-title{
@@ -106,25 +126,34 @@ main{
     font-size: 38px;
     font-weight:bold ;
     color: rgba(37, 36, 50, 1);
-      padding-top:50px;
+   margin-bottom:5px;
+  
+}
+.user-item{
+    margin-top: 0px;
 }
 .user-tile{
     font-weight: bold;
     font-size: 80px;
     color: rgba(78, 71, 255, 1);
+    margin-bottom: 2px;
 }
 .user-des{
     font-size:20px ;
  padding-top: 0px;
     color: rgba(0, 0, 0, 0.5);
+    margin-top: 2px; 
+    margin-bottom:0px;
 }
 /* Touch Section */
+.touch-section{
+ margin-top: 92px;
+    margin-right: 150;
+}
 .touch{
     display: flex;
     padding: 200px;
-    gap: 200px;
-    margin-top: 92px;
-  
+    gap:180px;
 }
 #touch-text{
     font-size: 97px;
@@ -143,4 +172,31 @@ input,textarea{
 }
 label{
    font-size: 18px; 
+}
+/* footer- */
+#footer-list{
+    display: flex;
+     /* align-items: center; */
+    justify-content: space-around;
+    list-style: none;
+    gap: 5px;
+
+}
+#footer-list a{
+    text-decoration: none;
+}
+.footer-text{
+    font-size:100px ;
+
+    color: rgba(78, 71, 255, 1) ;
+}
+.footer-all{
+    text-align: center; 
+    margin: 50px 455px 103px 455px;
+    width: 532px;
+    height: 211px;
+}
+#footer-p{
+    color: rgba(137, 135, 161, 1);
+ 
 }

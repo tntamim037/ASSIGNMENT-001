@@ -12,15 +12,18 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body class="raleway-normal">
-    <header class="back-photo">
-        <nav>
-            <h3 class="nav-title inter-normal">LOGO</h3>
+    <header>
+        <div class="back-photo">
+            <nav>
+            <div class="title">
+                <h3 class="nav-title inter-normal">LOGO</h3>
              <a href=""><button class="btn-primary">Sign Up</button></a>
+            </div>
         </nav>
-        <div class="banner">
+        <div class="banner ">
             <h3 class="banner-text">Cool Dark UI Template for Webflow Agencies!</h3>
             <button class="btn-primary banner-button">Stay Focused</button>
-        
+        </div>
         </div>
     </header>
     <main>
@@ -30,10 +33,11 @@
                     <p>Explore the live preview and imagine your brand in this bold new look.</p>
                     <button class="btn-primary">Launch Live Preview</button>
             </div>
-            <img src="Assets/wc-mini.png" alt="">
+            <img id="banner-photo" src="Assets/wc-mini.png" alt="">
         </section >
-        <section class="Users Section">
-            <div id="user-about" >
+        <section >
+          <div class="users-section">
+              <div id="user-about" >
                 <h3 id="section-title">
                    Joined Thousands of Productive Users 
                 </h3>
@@ -51,8 +55,8 @@
                     <p class="user-tile">50%</p>
                     <p class="user-des">Satisfaction Rate</p>
                 </div>
+                </div>
                </div> 
-        
             </div>
         </section>
         <section id="touch-section">
@@ -71,7 +75,21 @@
         </section>
     </main>
     <footer>
-
+        <div class="footer-all">
+            <h1 class="footer-text inter-normal">
+                LOGO
+            </h1>
+            <div id="last">
+                <p id="footer-p">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+            <ul id="footer-list">
+              <a href=""><li>Home</li></a>
+              <a href=""><li>About</li></a>
+              <a href=""><li>How it Works</li></a>
+              <a href=""><li>Services</li></a>
+                
+            </ul>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
